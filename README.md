@@ -52,7 +52,7 @@ methods: {
     handleClick(){
       this.$confirm(
         {
-          message: `Are you sure?`,
+          message: 'Are you sure?',
           button: {
             no: 'No',
             yes: 'Yes'
@@ -152,12 +152,4 @@ methods: {
       )
     }
   }
-```
-
-## Style
-
-You can add own class name to vue-confirm-dialog component. and you can write your own styles for confirm dialog.
-
-```html
-<vue-confirm-dialog class="my-class"></vue-confirm-dialog>
 ```
